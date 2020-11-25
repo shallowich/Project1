@@ -95,11 +95,17 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana website to see if the installation worked as intended.
 
 Answer the following questions:
-Which file is the playbook? .yml file.
-Where do you copy it? /etc/ansible, /etc/ansible/files, and /etc/ansible/roles depending on the .yml file.
-Which files do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts and /etc/ansible/ansible.cfg.
-How do I specify which machine to install the ELK server on versus which to install Filebeat on? Editing the /etc/ansible/hosts file with the approriate IP addresses.
-Which URL do you navigate to in order to check that the ELK server is running? http://<local.host>/app/kibana#/home.
+
+* Which file is the playbook? .yml file.
+
+* Where do you copy it? /etc/ansible, /etc/ansible/files, and /etc/ansible/roles depending on the .yml file.
+
+* Which files do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts and /etc/ansible/ansible.cfg.
+
+* How do I specify which machine to install the ELK server on versus which to install Filebeat on? Editing the /etc/ansible/hosts file with the approriate IP addresses.
+
+* Which URL do you navigate to in order to check that the ELK server is running? http://<local.host>/app/kibana#/home.
+
 
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
